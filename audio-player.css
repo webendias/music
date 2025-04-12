@@ -1,6 +1,6 @@
 .youtube-audio-player {
   width: 100%;
-  background: #abebc6;
+background: linear-gradient(135deg, #111 0%, #222 100%);
   border-radius: 12px;
   padding: 20px;
   font-family: sans-serif;

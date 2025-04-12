@@ -1,6 +1,7 @@
 .youtube-audio-player {
   width: 100%;
-  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);  border-radius: 16px;
+  background: #6A0DAD;
+background: linear-gradient(45deg, rgba(106, 13, 173, 1) 27%, rgba(0, 0, 0, 1) 71%);
   padding: 20px;
   font-family: sans-serif;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);

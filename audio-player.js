@@ -88,7 +88,7 @@ function handleState(container, player, e) {
   const bars = container.querySelector('.bars');
 
   if (e.data === YT.PlayerState.PLAYING) {
-    playBtn.src = "https://cdn-icons-png.flaticon.com/128/6364/6364353.png";
+    playBtn.src = "https://cdn-icons-png.flaticon.com/128/4340/4340038.png";
     statusText.textContent = "Reproduciendo";
     statusText.classList.add("playing");
     bars.style.visibility = 'visible';

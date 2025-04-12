@@ -6,7 +6,7 @@
   font-family: sans-serif;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
-  border-radius: 12px; /* Esquinas redondeadas, modificalo si querés más */
+  border-radius: 12px;
 }
 
 .youtube-audio-player .controls {
@@ -86,14 +86,12 @@
   margin-top: 10px;
 }
 
-/* DESLIZADOR actualizado: color rojo (#fc1607) con efecto glow */
 input[type=range] {
   width: 100%;
   appearance: none;
   height: 6px;
-  background: #fc1607;
+  background: #ffffff; /* Fondo blanco para la pista */
   border-radius: 4px;
-  box-shadow: 0 0 8px rgba(252, 22, 7, 0.4);
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -101,7 +99,7 @@ input[type=range]::-webkit-slider-thumb {
   height: 14px;
   width: 14px;
   border-radius: 50%;
-  background: #fc1607;
+  background: #fc1607; /* Bolita roja */
   cursor: pointer;
   margin-top: -4px;
   box-shadow: 0 0 10px rgba(252, 22, 7, 0.6);
